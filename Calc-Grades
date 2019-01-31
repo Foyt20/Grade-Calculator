@@ -18,12 +18,12 @@ grade = sum(my_list)
 
 print(grade)
 if grade >90:
-    print("BOW BEFORE MY EXCELLENCE.")
+    print("A. BOW BEFORE MY EXCELLENCE.")
 elif grade >80:
-    print("You're still pretty awesome.")
+    print("B. You're still pretty awesome.")
 elif grade >70:
-    print("You could have done better. Apply yourself next time.")
+    print("C. You could have done better. Apply yourself next time.")
 elif grade >60:
-    print("Way to sneak it in there, dumb ass.")
+    print("D. Way to sneak it in there, dumb ass.")
 elif grade <60:
-    print("F**k, you're an idiot. Reevaluate your future")
+    print("F. F**k, you're an idiot. Reevaluate your future")
