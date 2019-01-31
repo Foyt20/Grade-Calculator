@@ -1,0 +1,29 @@
+section_one = 100
+section_two = 80
+section_three = 100
+section_four = 88
+section_five = 79
+section_six = 95
+
+a = section_one * .15
+b = section_two * .2
+c = section_three * .05
+d = section_four * .15
+e = section_five * .2
+f = section_six * .25
+
+my_list = [a, b, c, d, e, f]
+
+grade = sum(my_list)
+
+print(grade)
+if grade >90:
+    print("BOW BEFORE MY EXCELLENCE.")
+elif grade >80:
+    print("You're still pretty awesome.")
+elif grade >70:
+    print("You could have done better. Apply yourself next time.")
+elif grade >60:
+    print("Way to sneak it in there, dumb ass.")
+elif grade <60:
+    print("F**k, you're an idiot. Reevaluate your future")
